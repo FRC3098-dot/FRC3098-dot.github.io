@@ -19,16 +19,16 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
-    { "name": "Drivetrain", //
-      "code": "drv",//
-      "type": "radio",//
-      "choices": {//
-        "s": "Swerve<br>",//
-        "w": "West Coast/Tank<br>",//
-       "b": "Butterfly/Grashopper<br>",//
-        "m": "Mechanum<br>",//
-        "o": "Other"//
-      },//
+ /*   { "name": "Drivetrain", 
+      "code": "drv",
+      "type": "radio",
+      "choices": {
+        "s": "Swerve<br>",
+        "w": "West Coast/Tank<br>",
+       "b": "Butterfly/Grashopper<br>",
+        "m": "Mechanum<br>",
+        "o": "Other"
+      },*/
       "defaultValue": "o"
     },
     { "name": "Other Drivetrain",
