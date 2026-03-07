@@ -40,7 +40,7 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 250
-    }
+    },
      { "name": "Autos: where do you start?<br>(from drivers station perspective)",
       "code": "strtpos",
       "type": "radio",
