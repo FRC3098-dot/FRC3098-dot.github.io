@@ -153,30 +153,28 @@ var config_data = `
       "code": "tff",
       "type": "bool"
     },
-     { "name": "Shooting Locations",
-      "code": "inct",
-    },
-     {"name": "Pass Fuel via Shooting",
+    
+     {"name": "Inactive Time: Pass Fuel via Shooting",
       "code": "tintPS",
       "type": "bool"
     },  
-    { "name": "Pass Fuel via Pushing",
+    { "name": "Inactive Time: Pass Fuel via Pushing",
       "code": "tintPP",
       "type": "bool"
     }, 
-    { "name": "Defense",
+    { "name": "Inactive Time: Defense",
       "code": "tintD",
       "type": "bool"
     },
-     { "name": "Collect Fuel",
+     { "name": "Inactive Time: Collect Fuel",
       "code": "tintC",
       "type": "bool"
     },
-    { "name": "Collect Fuel",
+    { "name": "Inactive Time: Collect Fuel",
       "code": "tintC",
       "type": "bool"
     },
-     { "name": "Incurs Fouls",
+     { "name": "Inactive Time: Incurs Fouls",
       "code": "tintF",
       "type": "bool"
     }
