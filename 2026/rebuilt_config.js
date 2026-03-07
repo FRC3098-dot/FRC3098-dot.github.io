@@ -152,7 +152,7 @@ var config_data = `
     { "name": "Pickup from Floor",
       "code": "tff",
       "type": "bool"
-    }
+    },
      {"name": "Pass Fuel via Shooting",
       "code": "tintPS",
       "type": "bool"
