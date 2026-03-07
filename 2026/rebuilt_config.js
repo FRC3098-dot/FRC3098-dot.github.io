@@ -153,6 +153,9 @@ var config_data = `
       "code": "tff",
       "type": "bool"
     },
+     { "name": "Shooting Locations",
+      "code": "inct",
+    },
      {"name": "Pass Fuel via Shooting",
       "code": "tintPS",
       "type": "bool"
@@ -161,8 +164,6 @@ var config_data = `
       "code": "tintPP",
       "type": "bool"
     }, 
-     ],
-  "inactive": [
     { "name": "Defense",
       "code": "tintD",
       "type": "bool"
