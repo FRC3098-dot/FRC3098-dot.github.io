@@ -23,25 +23,13 @@ var config_data = `
       "code": "fpu",
       "type": "bool"
     },
-    { "name": "Depot pickup Fuel",
+    { "name": "Depot (Floor Box) pickup Fuel",
       "code": "dpu",
       "type": "bool"
     },
-    { "name": "Outpost pickup Fuel",
+    { "name": "Outpost (Human Player) pickup Fuel",
       "code": "opu",
       "type": "bool"
-    },
-    { "name": "Autos",
-      "code": "aut",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
-    },
-    { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
-      "code": "sct",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
     },
     { "name": "Comments",
       "code": "co",
@@ -49,6 +37,14 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     }
+     { "name": "Autos: where do yolu start?<br>(from drivers station perspective)",
+      "code": "strtpos",
+      "type": "radio",
+      "choices": {
+        "L": "Left<br>",
+        "R": "Right<br>",
+        "C": "Center<br>",
+    },
   ],
   "auton": [
   ],
