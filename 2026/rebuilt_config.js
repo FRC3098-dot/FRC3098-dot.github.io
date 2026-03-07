@@ -261,7 +261,7 @@ var config_data = `
       "code": "pen",
       "type": "bool"
     },
-    { "name": "Fuel Percentage (of total scored by alliance)",
+    { "name": "Fuel Percentage<br>(of total scored by alliance)",
       "tooltip": "What percentage of the total fuel for this alliance did this robot score?",
       "code": "pct",
       "type": "number",
