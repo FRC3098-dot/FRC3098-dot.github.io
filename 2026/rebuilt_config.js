@@ -153,6 +153,27 @@ var config_data = `
       "code": "tff",
       "type": "bool"
     }
+    "What did the Robot do During Inactive Time"
+     { "name": "Pass Fuel",
+      "code": "tintP",
+      "type": "bool"
+    } 
+    { "name": "Defense",
+      "code": "tintD",
+      "type": "bool"
+    }
+     { "name": "Collect Fuel",
+      "code": "tintC",
+      "type": "bool"
+    }
+    { "name": "Collect Fuel",
+      "code": "tintC",
+      "type": "bool"
+    }
+     { "name": "Incurs Fouls",
+      "code": "tintF",
+      "type": "bool"
+    }
   ],
   "endgame": [
     { "name": "Climb",
