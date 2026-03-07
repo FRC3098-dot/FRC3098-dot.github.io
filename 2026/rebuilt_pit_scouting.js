@@ -31,7 +31,6 @@ var config_data = `
       "code": "opu",
       "type": "bool"
     },
-    },
      { "name": "Does your Robot hang?",
       "code": "oph",
       "type": "bool"
