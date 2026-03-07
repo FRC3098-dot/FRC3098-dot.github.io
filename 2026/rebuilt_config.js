@@ -154,12 +154,12 @@ var config_data = `
       "type": "bool"
     },
     
-     {"name": "Inactive Time: Pass Fuel via Shooting",
-      "code": "tintPS",
+     {"name": "Pass Fuel via Shooting",
+      "code": "tPS",
       "type": "bool"
     },  
-    { "name": "Inactive Time: Pass Fuel via Pushing",
-      "code": "tintPP",
+    { "name": "Pass Fuel via Pushing",
+      "code": "tPP",
       "type": "bool"
     }, 
     { "name": "Inactive Time: Defense",
@@ -170,8 +170,8 @@ var config_data = `
       "code": "tintC",
       "type": "bool"
     },
-    { "name": "Inactive Time: Collect Fuel",
-      "code": "tintC",
+    { "name": "Inactive Time: Pass Fuel",
+      "code": "tintP",
       "type": "bool"
     },
      { "name": "Inactive Time: Incurs Fouls",
