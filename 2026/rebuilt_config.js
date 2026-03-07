@@ -154,8 +154,12 @@ var config_data = `
       "type": "bool"
     }
     "What did the Robot do During Inactive Time"
-     { "name": "Pass Fuel",
-      "code": "tintP",
+     { "name": "Pass Fuel via Shooting",
+      "code": "tintPS",
+      "type": "bool"
+    }  
+    { "name": "Pass Fuel via Pushing",
+      "code": "tintPP",
       "type": "bool"
     } 
     { "name": "Defense",
