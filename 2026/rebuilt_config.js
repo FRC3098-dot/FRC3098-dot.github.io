@@ -161,6 +161,8 @@ var config_data = `
       "code": "tintPP",
       "type": "bool"
     }, 
+     ],
+  "inactive": [
     { "name": "Defense",
       "code": "tintD",
       "type": "bool"
