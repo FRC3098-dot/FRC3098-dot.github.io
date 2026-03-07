@@ -18,9 +18,6 @@ var config_data = `
       "code": "wei",
       "type": "number",
       "defaultValue": "0"
-    },
-      "defaultValue": "o"
-    },
     { "name": "Other Drivetrain",
       "code": "odt",
       "type": "text",
