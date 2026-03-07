@@ -17,8 +17,8 @@ var config_data = `
         "w": "West Coast/Tank<br>",
         "b": "Butterfly/Grashopper<br>",
         "m": "Mechanum<br>",
-        "o": "Other"
-      },
+        "o": "Other"}
+    },
     { "name": "Floor pickup Fuel",
       "code": "fpu",
       "type": "bool"
