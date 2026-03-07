@@ -98,11 +98,11 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Pickup from Depot",
+    { "name": "Pickup from Depot (Floor Box)",
       "code": "afd",
       "type": "bool"
     },
-    { "name": "Pickup from Outpost",
+    { "name": "Pickup from Outpost (Human Player)",
       "code": "afo",
       "type": "bool"
     },
@@ -121,12 +121,11 @@ var config_data = `
       "expectedMax": 25,
       "shape": "circle 5 black red true"
     },
-    { "name": "Fuel Scored",
+    { "name": "Fuel Scored (% of full robot)",
       "code": "tfs",
-      "expectedMax": 150,
-      "altInc1": 10,
-      "altInc2": 5,
-      "type": "counter"
+      "type": "number",
+      "min": 0,
+      "max": 100
     },
     { "name": "Pass from Neutral Zone",
       "code": "pnz",
@@ -142,11 +141,11 @@ var config_data = `
       "altInc2": 5,
       "type": "counter"
     },
-    { "name": "Pickup from Depot",
+    { "name": "Pickup from Depot (Floor Box)",
       "code": "tfd",
       "type": "bool"
     },
-    { "name": "Pickup from Outpost",
+    { "name": "Pickup from Outpost (Human Player)",
       "code": "tfo",
       "type": "bool"
     },
