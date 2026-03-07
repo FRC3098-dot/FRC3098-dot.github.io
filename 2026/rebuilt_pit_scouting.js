@@ -31,19 +31,39 @@ var config_data = `
       "code": "opu",
       "type": "bool"
     },
+    },
+     { "name": "Does your Robot hang?",
+      "code": "oph",
+      "type": "bool"
+    },
     { "name": "Comments",
       "code": "co",
       "type": "text",
       "size": 20,
       "maxSize": 250
     }
-     { "name": "Autos: where do yolu start?<br>(from drivers station perspective)",
+     { "name": "Autos: where do you start?<br>(from drivers station perspective)",
       "code": "strtpos",
       "type": "radio",
       "choices": {
         "L": "Left<br>",
         "R": "Right<br>",
         "C": "Center<br>",
+        "A": "Any<br>",
+        "SO": "Either Side<br>",
+        }
+    },
+     { "name": "Autos: Does your Robot move during auton?",
+      "code": "autom",
+      "type": "bool"
+    },
+     { "name": "Autos: Does your Robot score during auton?",
+      "code": "autos",
+      "type": "bool"
+    },
+     { "name": "Autos: Does your Robot hang during auton?",
+      "code": "autoh",
+      "type": "bool"
     },
   ],
   "auton": [
