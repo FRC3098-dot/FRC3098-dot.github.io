@@ -157,23 +157,23 @@ var config_data = `
      { "name": "Pass Fuel via Shooting",
       "code": "tintPS",
       "type": "bool"
-    }  
+    },  
     { "name": "Pass Fuel via Pushing",
       "code": "tintPP",
       "type": "bool"
-    } 
+    }, 
     { "name": "Defense",
       "code": "tintD",
       "type": "bool"
-    }
+    },
      { "name": "Collect Fuel",
       "code": "tintC",
       "type": "bool"
-    }
+    },
     { "name": "Collect Fuel",
       "code": "tintC",
       "type": "bool"
-    }
+    },
      { "name": "Incurs Fouls",
       "code": "tintF",
       "type": "bool"
