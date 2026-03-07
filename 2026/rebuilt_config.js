@@ -152,8 +152,8 @@ var config_data = `
     { "name": "Pickup from Floor",
       "code": "tff",
       "type": "bool"
-    }
-    "What did the Robot do During Inactive Time"
+    },
+    "What did the Robot do During Inactive Time",
      { "name": "Pass Fuel via Shooting",
       "code": "tintPS",
       "type": "bool"
