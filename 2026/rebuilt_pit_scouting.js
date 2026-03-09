@@ -62,7 +62,7 @@ var config_data = `
      { "name": "Autos: Does your Robot hang during auton?",
       "code": "autoh",
       "type": "bool"
-    },
+    }
   ],
   "auton": [
   ],
