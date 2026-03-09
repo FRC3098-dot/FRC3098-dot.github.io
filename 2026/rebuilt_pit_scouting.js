@@ -49,8 +49,7 @@ var config_data = `
         "R": "Right<br>",
         "C": "Center<br>",
         "A": "Any<br>",
-        "SO": "Either Side<br>",
-        }
+        "SO": "Either Side<br>"}
     },
      { "name": "Autos: Does your Robot move during auton?",
       "code": "autom",
