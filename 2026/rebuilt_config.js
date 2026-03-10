@@ -113,7 +113,7 @@ var config_data = `
       { "name": "Score second set (picked up)",
       "code": "apas",
       "type": "bool"
-    },
+    }
   ],
   "teleop": [
     { "name": "Shooting Locations",
