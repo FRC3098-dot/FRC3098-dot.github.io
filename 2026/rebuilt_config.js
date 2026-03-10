@@ -1,5 +1,4 @@
 var config_data = `
-{
   "dataFormat": "tsv",
   "title": "Scouting PASS 2026",
   "page_title": "REBUILT",
@@ -173,7 +172,7 @@ var config_data = `
       "altInc1": 10,
       "altInc2": 5,
       "type": "counter"
-    },
+    }
   ],
   "endgame": [
     { "name": "Climb",
