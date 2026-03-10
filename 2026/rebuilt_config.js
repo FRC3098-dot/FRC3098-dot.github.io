@@ -109,6 +109,10 @@ var config_data = `
     { "name": "Pickup from Neutral Zone",
       "code": "aff",
       "type": "bool"
+    },
+    { "name": "Shoot a second time with fuel collected during auto",
+      "code": "acas",
+      "type": "bool"
     }
   ],
   "teleop": [
