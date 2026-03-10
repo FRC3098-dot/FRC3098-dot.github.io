@@ -1,4 +1,4 @@
-var config_data = 
+var config_data = '
   "dataFormat": "tsv",
   "title": "Scouting PASS 2026",
   "page_title": "REBUILT",
@@ -263,5 +263,5 @@ var config_data =
       "size": 15,
       "maxSize": 55
     }
-  ]
+  ],
 }`;
