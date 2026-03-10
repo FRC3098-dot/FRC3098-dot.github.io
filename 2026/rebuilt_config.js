@@ -157,7 +157,7 @@ var config_data = `
      { "name": "Inactive Time: Incurs Fouls",
       "code": "tintF",
       "type": "bool"
-    }, { "name": "Fuel Scored (% of full robot)",
+    }, { "name": "Fuel Scored (% of full robot)<br> [this tells us how acurate their shooter is]",
       "code": "tfs",
       "type": "number",
       "min": 0,
