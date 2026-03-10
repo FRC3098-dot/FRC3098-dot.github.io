@@ -110,6 +110,10 @@ var config_data = `
       "code": "aff",
       "type": "bool"
     }
+      { "name": "Score second set (picked up)",
+      "code": "apas",
+      "type": "bool"
+    },
   ],
   "teleop": [
     { "name": "Shooting Locations",
@@ -163,20 +167,13 @@ var config_data = `
       "min": 0,
       "max": 100
     },
-    { "name": "Pass from Neutral Zone",
+    { "name": "Pass",
       "code": "pnz",
       "expectedMax": 250,
       "altInc1": 10,
       "altInc2": 5,
       "type": "counter"
     },
-    { "name": "Pass from Opp Alliance Zone",
-      "code": "poa",
-      "expectedMax": 250,
-      "altInc1": 10,
-      "altInc2": 5,
-      "type": "counter"
-    }
   ],
   "endgame": [
     { "name": "Climb",
@@ -260,13 +257,6 @@ var config_data = `
     { "name": "Excessive Penalties",
       "code": "pen",
       "type": "bool"
-    },
-    { "name": "Fuel Percentage<br>(of total scored by alliance)",
-      "tooltip": "What percentage of the total fuel for this alliance did this robot score?",
-      "code": "pct",
-      "type": "number",
-      "min": 0,
-      "max": 100
     },
     { "name": "Comments",
       "code": "co",
