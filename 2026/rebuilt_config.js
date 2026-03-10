@@ -1,5 +1,4 @@
-var config_data = '
-{
+var config_data ='
   "dataFormat": "tsv",
   "title": "Scouting PASS 2026",
   "page_title": "REBUILT",
@@ -63,7 +62,7 @@ var config_data = '
       "dimensions": "7 10",
       "allowableResponses": "4 11 18 25 32 39 46 53 60 67",
       "shape": "circle 5 black red true"
-    }
+    },
   ],
   "auton": [
     { "name": "Auto Shooting Location",
@@ -113,7 +112,7 @@ var config_data = '
       { "name": "Score second set (picked up)",
       "code": "apas",
       "type": "bool"
-    }
+    },
   ],
   "teleop": [
     { "name": "Shooting Locations",
@@ -173,7 +172,7 @@ var config_data = '
       "altInc1": 10,
       "altInc2": 5,
       "type": "counter"
-    }
+    },
   ],
   "endgame": [
     { "name": "Climb",
@@ -187,7 +186,7 @@ var config_data = '
         "x": "Not Attempted"
       },
       "defaultValue": "x"
-    }
+    },
   ],
   "postmatch": [
     { "name": "Driver Skill",
@@ -263,6 +262,6 @@ var config_data = '
       "type": "text",
       "size": 15,
       "maxSize": 55
-    }
+    },
   ],
 }`;
