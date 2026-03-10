@@ -125,6 +125,12 @@ var config_data = `
       "expectedMax": 25,
       "shape": "circle 5 black red true"
     },
+     { "name": "Fuel Scored (% of full robot)<br> [this tells us how acurate their shooter is]",
+      "code": "tfs",
+      "type": "number",
+      "min": 0,
+      "max": 100
+    },
     { "name": "Pickup from Depot (Floor Box)",
       "code": "tfd",
       "type": "bool"
@@ -161,11 +167,6 @@ var config_data = `
      { "name": "Inactive Time: Incurs Fouls",
       "code": "tintF",
       "type": "bool"
-    }, { "name": "Fuel Scored (% of full robot)<br> [this tells us how acurate their shooter is]",
-      "code": "tfs",
-      "type": "number",
-      "min": 0,
-      "max": 100
     }
   ],
   "endgame": [
