@@ -9,6 +9,12 @@ var config_data = `
       "code": "t",
       "type": "number"
     },
+     { "name": "Robot Name",
+      "code": "Nm",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
+    },
        { "name": "Drivetrain",
       "code": "drv",
       "type": "radio",
