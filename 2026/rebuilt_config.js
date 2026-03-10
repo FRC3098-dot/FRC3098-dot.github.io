@@ -109,7 +109,7 @@ var config_data = `
     { "name": "Pickup from Neutral Zone",
       "code": "aff",
       "type": "bool"
-    }
+    },
       { "name": "Score second set (picked up)",
       "code": "apas",
       "type": "bool"
