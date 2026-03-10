@@ -113,6 +113,10 @@ var config_data = `
     { "name": "Shoot a second time with fuel collected during auto",
       "code": "acas",
       "type": "bool"
+    },
+    { "name": "Robot started empty ",
+      "code": "aemp",
+      "type": "bool"
     }
   ],
   "teleop": [
