@@ -243,6 +243,14 @@ var config_data = `
       "code": "stuck",
       "type": "bool"
     },
+      { "name": "Was robot able to get unstuck",
+      "code": "sr",
+      "type": "radio",
+      "choices": {
+        "1": "yes <br>",
+        "2": "no (remained stuck)",
+        "3": "Robot did not get stuck"
+      },
     { "name": "Make good<br>alliance partner?",
       "tooltip": "Would you want this robot on your alliance in eliminations?",
       "code": "all",
