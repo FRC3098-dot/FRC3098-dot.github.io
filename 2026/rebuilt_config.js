@@ -239,10 +239,6 @@ var config_data = `
       "code": "tip",
       "type": "bool"
     },
-     { "name": "Was robot able to get unstuck?",
-      "code": "stuck",
-      "type": "bool"
-    },
       { "name": "Was robot able to get unstuck",
       "code": "stuck2",
       "type": "radio",
